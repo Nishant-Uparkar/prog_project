@@ -1,6 +1,6 @@
 package com.wecp.progressive.entity;
 
-public class Team implements Comparable<Team>{
+public class Team {
 
     private int team_id;
     private String team_name;
