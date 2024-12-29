@@ -26,7 +26,8 @@ public class TeamServiceImplArraylist implements TeamService {
 
     @Override
     public List<Team> getAllTeamsSortedByName() {
-       return Collections.sort(teams);
+       List<Team> t = new ArrayList<>();
+       return t;
     }
 
     
