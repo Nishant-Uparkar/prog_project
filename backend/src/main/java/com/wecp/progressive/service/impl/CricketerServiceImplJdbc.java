@@ -50,4 +50,3 @@ public class CricketerServiceImplJdbc implements CricketerService {
         return cricketerDAO.getCricketerById(cricketerId);
     }
 }
-
